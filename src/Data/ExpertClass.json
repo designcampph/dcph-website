@@ -1,0 +1,62 @@
+[
+    {
+        "index" : 0,
+        "Password" : "adfgKL14DM",
+        "title" : "Graphic Design Course",
+        "Image" : "/photos/gdc.jpg",
+        "Expert": "Sir King Jasser Andaya",
+        "Description": " Learn the Industry Standards of Graphic Design and be proficient to Graphic Design Apps like Photoshop, Illustrator and Canva",
+        "App1" : "Adobe Photoshop",
+        "Link1" : "https://www.adobe.com",
+        "App2" : "Adobe Illustrator",
+        "Link2" : "https://www.adobe.com",
+        "App3" : "Canva",
+        "Link3" : "https://www.canva.com",
+        "Gdrive" : "Files: https://drive.google.com"
+    },
+    {
+        "index" : 1,
+        "Password" : "dfgoMB36FG",
+        "title" : "Motion Design Course",
+        "Image" : "/photos/mdc.jpg",
+        "Expert": "Sir King Jasser Andaya",
+        "Description": "Edit Short-form and Long-form videos that is very in demand skill today. Learn it using Capcut Video Editor",
+        "App1" : "Capcut <- Download Here",
+        "Link1" : "https://www.capcut.com",
+        "App2" : "Fable App <- Create Account",
+        "Link2" : "https://www.fable.app",
+        "App3" : " ",
+        "Link3" : " ",
+        "Gdrive" : "https://drive.google.com"
+    },
+    {
+        "index" : 2,
+        "Password" : "sgdjOU28JN",
+        "title" : "UI/UX Design Course",
+        "Image" : "/photos/uiuxdc.jpg",
+        "Expert": "Sir King Jasser Andaya",
+        "Description": "Edit Short-form and Long-form videos that is very in demand skill today. Learn it using Capcut Video Editor",
+        "App1" : "Figma <- Download Here",
+        "Link1" : "https://www.Figma.com",
+        "App2" : "Fable App <- Create Account",
+        "Link2" : "fable.app",
+        "App3" : " ",
+        "Link3" : " ",
+        "Gdrive" : "https://drive.google.com"
+    },
+    {
+        "index" : 3,
+        "Password" : "pfkgYT96BS",
+        "title" : "Digital Design Course",
+        "Image" : "/photos/ddc.jpg",
+        "Expert": "Sir King Jasser Andaya",
+        "Description": "Edit Short-form and Long-form videos that is very in demand skill today. Learn it using Capcut Video Editor",
+        "App1" : "Canva <- Open App",
+        "Link1" : "https://www.canva.com",
+        "App2" : "Systeme.io <- Open App",
+        "Link2" : "https://www.systeme.io",
+        "App3" : " ",
+        "Link3" : " ",
+        "Gdrive" : "https://drive.google.com"
+    }
+]

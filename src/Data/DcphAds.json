@@ -1,0 +1,18 @@
+[
+    {
+        "photos": "/photos/courseads.jpg",
+        "link": "/expert"
+    },
+    {
+        "photos": "/photos/freeads.png",
+        "link": "/courses"
+    },
+    {
+        "photos": "/photos/trainingads.png",
+        "link": "/corpotrainings"
+    },
+    {
+        "photos": "/photos/sirkingads.jpg",
+        "link": "/expert"
+    }
+]

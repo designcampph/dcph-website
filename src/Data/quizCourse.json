@@ -1,0 +1,54 @@
+[
+    {
+        "id" : 1,
+        "Q1":"Can Lead viewer's eyes through Space",
+        "O1A" : "Line",
+        "O1B" : "Shape",
+        "A1" : 1,
+
+        "Q2":"Three-dimensional Element measured by Height,Width and Length",
+        "O2A" : "Shape",
+        "O2B" : "Form",
+        "A2" : 2,
+
+        "Q3":"Two-dimensional Element that implies Boundary",
+        "O3A" : "Shape",
+        "O3B" : "Space",
+        "A3" : 1,
+
+        "Q4":"The Darkness and Lightness of an Object",
+        "O4A" : "Space",
+        "O4B" : "Value",
+        "A4" : 2,
+
+        "Q5":"Distance between design objects",
+        "O5A" : "Space",
+        "O5B" : "Value",
+        "A5" : 1,
+
+        "Q6":"The way the Surface feels",
+        "O6A" : "Texture",
+        "O6B" : "Color",
+        "A6" : 1,
+
+        "Q7":"Most Powerful yet Complex Design Element",
+        "O7A" : "Color",
+        "O7B" : "Line",
+        "A7" : 1,
+
+        "Q8":"Tone is the combination of a color plus _________",
+        "O8A" : "White",
+        "O8B" : "Gray",
+        "A8" : 2,
+
+        "Q9":"Three types of Shapes",
+        "O9A" : "Geometric, Organic, Abstract",
+        "O9B" : "Geometric, Natural, Abstract",
+        "A9" : 1,
+
+        "Q10":"Red, Blue, Yellow are called",
+        "O10A" : "Tertiary",
+        "O10B" : "Primary",
+        "A10" : 2
+    }
+]
