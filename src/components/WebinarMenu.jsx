@@ -16,7 +16,7 @@ const WebinarMenu = () => {
                 {
                     Youtube.map ( (courseData,index) => {
                         return(
-                            <div key={index} className='flex w-[100%] h-96 mr-4 mb-8 bg-white border-2 border-gray-300 hover:border-8 hover:border-blue-800 drop-shadow-xl rounded-2xl'>
+                            <div key={index} className='flex w-[80%] h-[80%] mr-4 mb-8 bg-white border-2 border-gray-300 hover:border-8 hover:border-blue-800 drop-shadow-xl rounded-2xl'>
                                 <div  >
                                     <img src={courseData.Image} className='rounded-xl'></img>
                                     <div className='pl-4 pt-2 py-1 bg-white'>

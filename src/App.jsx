@@ -13,10 +13,6 @@ import CourseCFN from './CoursePages/CourseCFN'
 import CertificatePage from "./pages/CertificatePage"
 import QuizPage from "./pages/QuizPage"
 import ExpertClassPage from "./pages/ExpertClassPage"
-import ExpertGDC from './CoursePages/ExpertGDC'
-import ExpertMDC from './CoursePages/ExpertMDC'
-import ExpertUIUXDC from './CoursePages/ExpertMDC'
-import ExpertDDC from './CoursePages/ExpertMDC'
 import AboutPage from "./pages/AboutPage"
 import CorpoPage from "./pages/CorpoPage"
 

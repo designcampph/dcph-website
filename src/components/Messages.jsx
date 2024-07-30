@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import MessagesData from '../Data/messages'
+import Data from '../Data/messages.json'
 
 const Messages = () => {
 
@@ -26,30 +26,23 @@ const Messages = () => {
                 <h1 className='text-4xl ml-[50%] sm:ml-[5%] md:ml-[10%] lg:ml-[40%] sm:text-sm md:text-md lg:text-md'>4.5K</h1>
             </div>
         </div>
+
         <div className='w-full overflow:hidden pb-4 pl-4 bg-blue-200'>
             <h1 className='text-3xl font-bold p-4'>Messages</h1>
-            {MessagesData.map (messageData => {
-                return(
-                <div key={1}>
                     <div className='flex w-[95%] sm:w-[80%] mb-4 p-4 ml-2 bg-white drop-shadow-xl rounded-lg'>
                         <h1 className='text-3xl'>✉️</h1>
                         <div className='mr-8 flex'>
                             <div>
-                            <h1 className='text-xl font-bold text-black'>{messageData.Subject}</h1>
-                            <p>{messageData.Preview}</p>
-                            <p>{messageData.Date}</p>
+                            <h1 className='text-xl font-bold text-black'>{Data[0].Subject}</h1>
+                            <p>{Data[0].Preview}</p>
+                            <p>{Data[0].Date}</p>
                             {!showMessage ? <h1 className='text-red-500'><button onClick={show}>❌Close</button></h1> : <h1 className='text-blue-400'><button onClick={show}>🔽Open</button></h1>}
                             </div>
                         </div>
                     </div>
                     <div className={!showMessage ? 'flex visible w-[95%] py-2 ml-0 mb-4 bg-white drop-shadow-xl' : 'hidden'}>
-                        <p className='pl-4'>{messageData.Body}</p>
+                        <p className='pl-4'>{Data[0].Body}</p>
                     </div>
-                </div>
-                )
-            })
-            }
-            
         </div>
     </div>
   )

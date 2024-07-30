@@ -1,6 +1,6 @@
 [
-    {"id":1,"Title":"Canvamazing Episode 1: Creating Canva Animation","Image":"../photos/mocfa.jpg", "Date":"April 29,2024", "URL": "https://youtu.be/C4eYMiO8Q0w", "Description":"Learn how to create animation on this Episode of Canvamazing"},
-    {"id":2,"Title":"Canvamazing Episode 2: Designing a Presentation","Image":"../photos/cra.jpg", "Date":"May 4, 2024","URL": "https://youtu.be/ZFnK2dqHf4Y", "Description":"Learn on how to craft effective presentations using Canva"},
-    {"id":3,"Title":"Canvamazing Episode 3: Editing a Video","Image":"../photos/hac.jpg", "Date":"May 25,2024","URL": "https://youtu.be/4qdTgujiUIk", "Description":"Learn Video Editing but in Canva! Watch this Episode now!"}
+    {"id":1,"Title":"Canvamazing Episode 1: Creating Canva Animation","Image":"../photos/cv.png", "Date":"April 29,2024", "URL": "https://youtu.be/C4eYMiO8Q0w", "Description":"Learn how to create animation on this Episode of Canvamazing"},
+    {"id":2,"Title":"Canvamazing Episode 2: Designing a Presentation","Image":"../photos/cv.png", "Date":"May 4, 2024","URL": "https://youtu.be/ZFnK2dqHf4Y", "Description":"Learn on how to craft effective presentations using Canva"},
+    {"id":3,"Title":"Canvamazing Episode 3: Editing a Video","Image":"../photos/cv.png", "Date":"May 25,2024","URL": "https://youtu.be/4qdTgujiUIk", "Description":"Learn Video Editing but in Canva! Watch this Episode now!"}
    
 ]

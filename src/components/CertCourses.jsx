@@ -25,13 +25,13 @@ const CertCourses = () => {
             <div className='w-full h-auto overflow:hidden pb-4 pl-4 bg-white'>
                 <h1 className='text-3xl font-bold p-4 mb-4'>Certificates</h1>
                     { courses && (
-                    <div className='w-full grid gap-0 grid-cols-4'>
+                    <div className='w-full grid gap-0 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         {courses.map((course,index) =>(
                         <div key={index} className='w-[85%] mb-4 p-4 ml-2 bg-white drop-shadow-xl rounded-lg'>
                             <div className='mr-8 text-center'>
                                 <p className='text-xl font-bold'>{course.title}</p>
                                 <img src={Cert} className='ml-4 w-[80%] h-[80%]'></img>
-                                <button className='bg-orange-400 p-2 px-6 drop-shadow-xl rounded-full hover:bg-orange-200'>
+                                <button className='bg-orange-400 p-2 px-6 sm:text-xs md:text-sm lg:text-md drop-shadow-xl rounded-full hover:bg-orange-200'>
                                     <Link to="/cert" state={{name:userName,title:course.title}}>View Certificate</Link>
                                 </button> 
                             </div>

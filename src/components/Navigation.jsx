@@ -53,7 +53,7 @@ const Navigation = () => {
                     <li className="font-bold text-violet-500 mx-4 border-b-2 border-transparent visible sm:hidden md:hidden hover:border-lime-300 hover:text-cyan-400" ><Link to='/expert'>Expert Class</Link><sup className="rounded-full py-1 px-2.5 text-md bg-red-500 text-white">1</sup></li>
                 </ul>
             </div>
-            <div className="flex w-[15%] pl-4 h-24 float-right z-0">
+            <div className="flex w-[15%] pl-4 h-24 float-right z-0 sm:pl-0">
                 <div className="flex border-gray-400 w-12 h-8 mt-10 sm:hidden md:hidden">
                     <SignedIn>
                         <UserButton />
@@ -63,8 +63,9 @@ const Navigation = () => {
                     </SignedOut>
                 </div>
                 <h1 className="flex w-40 pt-11 sm:hidden md:hidden lg:hidden hover:underline">{user?.firstName}</h1>
-                <div onClick={handleNav} className="w-8 h-8 mt-10 mx-4 visible lg:hidden xl:hidden 2xl:hidden sm:mt-12 sm:w-12 sm:h-12">
+                <div onClick={handleNav} className="w-8 h-8 mt-10 mx-4 visible lg:hidden xl:hidden 2xl:hidden sm:mt-8 sm:w-10 sm:h-10">
                     {!nav ? <img src={close} /> : <img src={menu}/>}
+                    {!nav ? <p>Close</p> : <p>Menu</p>}
                 </div>
             </div>
         </div>

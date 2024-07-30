@@ -7,7 +7,7 @@ import {
 
 } from "@stream-io/video-react-sdk";
 import '@stream-io/video-react-sdk/dist/css/styles.css';
-import streamImg from '../assets/stream.png'
+import streamImg from '../assets/stream.jpg'
 import nostreamImg from '../assets/nostream.png'
 import ChatBox from './ChatBox';
 import data from '../Data/stream.json'
@@ -26,17 +26,18 @@ const Stream = () => {
 
     const {user} = useUser();
     const userName = user?.fullName
+    let userId = user.id + "Web" + "0726"
 
 
     const JoinBtn = async () =>{
       const { data, error } = await supabase
-      .from('Join')
+      .from('Webinar')
       .insert([
-        { User: userName}
+        { id: userId, user: userName , title: "Learn to Unlearn", percent: 100},
       ])
       .select()
 
-      window.alert("Thank you for Joining, Please visit your Email from Time to Time for some surprises!")
+      alert('Thank you for watching our Webinar!, Go to Watched Tutorials for your Certificate')
 
       }
 
@@ -63,7 +64,7 @@ const Stream = () => {
       { (live===2) ?
       <div className='ml-[25%] w-[50%] h-[50%] mt-2 bg-white'>
         <img src={streamImg}></img>
-        <button onClick={JoinBtn} className='w-[100%] my-4 p-4 rounded-full bg-green-400 hover:bg-blue-500'>Join now!</button>
+        <button onClick={JoinBtn} className='w-[100%] my-4 p-4 rounded-full bg-green-400 hover:bg-blue-500'>I have watched the Webinar</button>
       </div> : null }
     </div>
   )
