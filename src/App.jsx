@@ -8,6 +8,10 @@ import Webinars from './pages/Webinars'
 import WebinarOne from './WebinarPages/WebinarOne'
 import WebinarTwo from './WebinarPages/WebinarTwo'
 import WebinarThree from './WebinarPages/WebinarThree'
+import WebinarFour from './WebinarPages/WebinarFour'
+import WebinarFive from './WebinarPages/WebinarFive'
+import WebinarSix from './WebinarPages/WebinarSix'
+import WebinarSeven from './WebinarPages/WebinarSeven'
 import CourseGDB from './CoursePages/CourseGDB'
 import CourseCFN from './CoursePages/CourseCFN'
 import CertificatePage from "./pages/CertificatePage"
@@ -36,6 +40,10 @@ const App = () => {
           <Route path="/wb1" element={<WebinarOne />} />
           <Route path="/wb2" element={<WebinarTwo />} />
           <Route path="/wb3" element={<WebinarThree />} />
+          <Route path="/wb4" element={<WebinarThree />} />
+          <Route path="/wb5" element={<WebinarThree />} />
+          <Route path="/wb6" element={<WebinarThree />} />
+          <Route path="/wb7" element={<WebinarThree />} />
           <Route path="/crs1" element={<CourseGDB />} />
           <Route path="/crs2" element={<CourseCFN />} />
 

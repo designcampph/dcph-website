@@ -4,14 +4,6 @@ import { Link } from 'react-router-dom'
 
 const CoursesMenu = () => {
 
-    const [open,setOpen] = useState(0)
-
-    const showIndex = index => () =>{
-        setOpen(index)
-    }
-
-    
-
   return (
     <div>
         <div className='top-0 w-full h-full pt-4 pl-20 pb-12 bg-white'>
@@ -24,15 +16,15 @@ const CoursesMenu = () => {
                 {
                     Data.map ((courseData,index) => {
                         return(
-                            <div className='flex w-[100%] h-96 mr-4 mb-8 bg-white border-2 border-gray-300 hover:border-8 hover:border-blue-800 drop-shadow-xl rounded-2xl'>
-                                <div key={index}>
+                            <div key={courseData.id} className='flex w-[100%] h-96 mr-4 mb-8 bg-white border-2 border-gray-300 hover:border-8 hover:border-blue-800 drop-shadow-xl rounded-2xl'>
+                                <div>
                                     <img src={courseData.Photo} className='rounded-xl w-[100%] h-[60%]'></img>
                                     <div className='pl-4 pt-2 py-1 bg-white'>
                                         <strong>{courseData.Course}</strong>
                                         <p>{courseData.Duration} | <b className='text-blue-800'>{courseData.Type}</b></p>
                                         <p>{courseData.Level}</p>
-                                        <button onClick={showIndex(courseData)} className='mt-2 h-12 w-48 rounded-full bg-green-400 hover:bg-blue-800 hover:text-white'>
-                                            <Link to={"/crs" + (index + 1)}>Enroll for FREE!</Link>
+                                        <button className='mt-2 h-12 w-48 rounded-full bg-green-400 hover:bg-blue-800 hover:text-white'>
+                                            <Link to={"/crs" + courseData.id}>Enroll for FREE!</Link>
                                         </button>
                                     </div>
                                 </div>

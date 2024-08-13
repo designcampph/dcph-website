@@ -1,6 +1,9 @@
 [
-    {"id":1,"Title":"Canvamazing Episode 1: Creating Canva Animation","Image":"../photos/cv.png", "Date":"April 29,2024", "URL": "https://youtu.be/C4eYMiO8Q0w", "Description":"Learn how to create animation on this Episode of Canvamazing"},
-    {"id":2,"Title":"Canvamazing Episode 2: Designing a Presentation","Image":"../photos/cv.png", "Date":"May 4, 2024","URL": "https://youtu.be/ZFnK2dqHf4Y", "Description":"Learn on how to craft effective presentations using Canva"},
-    {"id":3,"Title":"Canvamazing Episode 3: Editing a Video","Image":"../photos/cv.png", "Date":"May 25,2024","URL": "https://youtu.be/4qdTgujiUIk", "Description":"Learn Video Editing but in Canva! Watch this Episode now!"}
-   
+    {"id":1,"Title":"Canvamazing Episode 1: Creating Canva Animation","Image":"../photos/cnv1.jpg", "Date":"April 29 2024", "URL": "https://youtu.be/C4eYMiO8Q0w", "Description":"Learn how to create animation on this Episode of Canvamazing"},
+    {"id":2,"Title":"Canvamazing Episode 2: Designing a Presentation","Image":"../photos/cnv2.jpg", "Date":"May 4 2024","URL": "https://youtu.be/ZFnK2dqHf4Y", "Description":"Learn on how to craft effective presentations using Canva"},
+    {"id":3,"Title":"Canvamazing Episode 3: Editing a Video","Image":"../photos/cnv3.jpg", "Date":"May 25 2024","URL": "https://youtu.be/4qdTgujiUIk", "Description":"Learn Video Editing but in Canva! Watch this Episode now!"},
+    {"id":4,"Title":"Color Theory by Envato Tuts+","Image":"../photos/ct.jpg", "Date":"February 10 2023","URL": "https://youtu.be/2QTHs7QSR9o", "Description":"What are the Color Theories? How can it affect our Design?"},
+    {"id":5,"Title":"Principles of Design by Envato Tuts+","Image":"../photos/pod.jpg", "Date":"August 25 2022","URL": "https://youtu.be/9EPTM91TBDU", "Description":"What are the Principles of Design? Lets Discover!"},
+    {"id":6,"Title":"Elements of Design by Envato Tuts+","Image":"../photos/eod.jpg", "Date":"December 9 2022","URL": "https://youtu.be/MshxnTQW4qU", "Description":"What are the different Elements of Design? Lets Learn!"},
+    {"id":7,"Title":"Rules of Composition by Envato Tuts+","Image":"../photos/roc.jpg", "Date":"March 15 2023","URL": "https://youtu.be/r6LPNRVhGKA", "Description":"How to Compose our Designs? Lets Find out!"}
 ]

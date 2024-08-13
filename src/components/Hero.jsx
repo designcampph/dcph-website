@@ -21,7 +21,10 @@ export const Hero = () => {
               </SignInButton>
             </SignedOut>
             <SignedIn>
-                <button className='ml-[2%] mt-[5%] w-64 h-12 rounded-full font-bold text-zinc-900 bg-orange-400 drop-shadow-lg hover:bg-blue-400 sm:ml-0'><Link to='/dashboard'>View Dashboard</Link></button>
+                <button className='ml-[2%] mt-[5%] w-64 h-12 rounded-full font-bold text-zinc-900 bg-orange-400 drop-shadow-lg hover:bg-blue-400 sm:ml-0' >
+                  <Link to='/dashboard'>View Dashboard
+                  </Link>
+                </button>
             </SignedIn>
             <div className='mt-12 sm:mt-4 lg:mt-8 object-scale-down ml-0'>
               <img src={Banner}></img>

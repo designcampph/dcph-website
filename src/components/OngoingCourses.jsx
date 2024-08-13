@@ -18,6 +18,7 @@ const DoneCourses = () => {
             const {data} = await supabase.from("Courses").select().eq("user",userName).lte("percent", 80)
             setCourses(data)
         }
+        
         fetchData()
       }, []);
 
@@ -28,15 +29,14 @@ const DoneCourses = () => {
                     {courses && (
                     <div>
                         {courses.map((course,index) =>(
-                        <div  key={index} className='flex w-[95%] mb-4 p-4 ml-2 bg-white drop-shadow-xl rounded-lg'>
+                        <div  key={index} className='flex w-[95%] mb-4 p-4 ml-2 bg-white drop-shadow-xl rounded-lg sm:flex-none'>
                             <div className='mr-8 flex'>
                                 <p className='text-xl font-bold'>{course.title}</p>
-                                <OngoingBar />
+                                <OngoingBar number={course.percent}/>
                                 <button className='bg-green-400 ml-12 p-2 px-6 drop-shadow-xl rounded-full hover:bg-green-200'>
                                     <Link to="/courses">
                                     Continue Course
                                     </Link>
-                                    
                                 </button>
                             </div>
                         </div>
